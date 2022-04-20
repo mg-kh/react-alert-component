@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    /* ----- alert box colors ----- */
+    .success_alert{
+        @apply bg-green-500 text-white
+    }
+    .error_alert{
+        @apply bg-red-500 text-white
+    }
+    .warning_alert{
+        @apply bg-yellow-500 text-white
+    }
+    .info_alert{
+        @apply bg-blue-500 text-white
+    }
+
+    /* ----- base button ----- */
+    .base_button{
+        @apply px-3 py-2 rounded-md text-white
+    }
+}
