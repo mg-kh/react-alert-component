@@ -12,7 +12,7 @@ import AlertBox from '@components/common/alert/alertbox'
  */
 import { showAlert, hideAlert } from '@store/action.alert'
 
-function App({ alerts }) {
+function App({ alerts, hideAlert }) {
   return (
     <div className="App">
       <Alert>
